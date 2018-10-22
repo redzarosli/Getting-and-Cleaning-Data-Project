@@ -1,0 +1,37 @@
+---
+title: "Codebook"
+author: "Redza Rosli"
+date: "October 21, 2018"
+output: html_document
+---
+
+##Types of Activity
+
+The following are types of activities analyzed for the scope of this study:
+
+1. Walking
+2. Walking Upstairs
+3. Walking Downstairs
+4. Sitting 
+5. Standing
+6. Laying
+
+## Variable Headers
+```{r}
+tidy_data <- read.csv("~/Coursera/Getting and Cleaning Data/Project/ProjectWeek4/tidy_data.txt", sep="")
+names(tidy_data)
+```
+
+##Conversions in variable name from base data
+
+The following are the changes made to the main dataset to makes the dataset more readable:
+
+* f -> frequency
+* t -> time
+* Gyro -> Gyroscope
+* Acc -> Acceleration
+* BodyBody -> Body
+ 
+##Things to note
+
+Only mean and standard deviation data is listed in final tidy_data.txt
