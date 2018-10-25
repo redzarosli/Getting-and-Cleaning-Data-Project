@@ -1,3 +1,5 @@
+#ReadMe File
+
 The dataset comes from a study of wearable technology that records the
 various activities of 30 users. The activity involves walking, running
 and sleeping. The dataset analyzes numerous variables involved with
